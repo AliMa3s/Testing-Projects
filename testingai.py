@@ -1,5 +1,12 @@
 import heapq
 
+# The provided code implements the A* (A-Star) search algorithm in Python, 
+# which is a popular and efficient pathfinding and graph traversal algorithm. 
+# A* is widely used in various applications, such as video game AI for finding the shortest path 
+# between two points, robotics for navigation, and in geographical information systems (GIS). 
+# The algorithm is favored for its performance and accuracy, thanks to its use of heuristics 
+# to estimate the best path to the goal.
+
 class Node:
     def __init__(self, parent=None, position=None):
         self.parent = parent
